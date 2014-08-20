@@ -1,7 +1,134 @@
-body{ 
-background-image : url(http://m2.img.srcdd.com/farm5/d/2012/0812/21/E5B0452A46FADAF5CEC680D5BC5C2C30_B800_2400_800_600.JPEG);
--moz-background-size:100% 100%;
--webkit-background-size:100% 100%;
--o-background-size:100% 100%;
-background-size:100% 100%;
+html, body, div, span, applet, object, iframe,          /*reset*/
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Setting below*/
+
+body.forindex{ 
+background-image : url(http://mymoviepad.com/wp-content/uploads/2014/01/The-Secret-Life-of-Walter-Mitty-Wallpapers.jpg);
+-moz-background-size:60% 100%;
+-webkit-background-size:60% 100%;
+-o-background-size:60% 100%;
+background-size:60% 100%;
+background-repeat: no-repeat;
+background-position:right ;
+}
+
+ h1.heading-deco{
+   font-size: 200% ;
+   font-family: "Comic Sans MS", cursive, sans-serif ;
+}
+
+h1.first-position{
+   position: absolute;
+   top: 85px;
+   left: 60px ;
+}
+
+h1.second-position{
+   position: absolute;
+   top: 473px;
+   left: 60px ;
+}
+
+iframe {
+  position: absolute;
+  top: 135px;
+  left: 8px ;
+
+}
+
+img.stamp1 {
+  position: absolute ;
+  top:75px ;
+  left: 8px ;
+}
+
+img.stamp2 {
+  position: absolute ;
+  top:465px ;
+  left: 8px ;
+}  
+
+
+div.button-list {
+  background: rgba(127,127,127,0.4);
+  width:40% ;
+  height:7% ;
+}
+
+a.button-deco1 {
+  font-family: "Comic Sans MS", cursive, sans-serif ;
+  font-size: 150% ;
+  color: #227700 ;
+  text-decoration: none ;
+   
+}
+
+p.story-block {
+  width: 38% ;
+  font-family: "Comic Sans MS", cursive, sans-serif ;
+  font-size: 180% ;
+  line-height: 45px;
+  position: absolute;
+  top: 150px;
+  left: 15px ;
+}
+
+p.title-for-story {
+  width: 40% ;
+  font-family: "Comic Sans MS", cursive, sans-serif ;
+  font-size: 250% ;
+  line-height: 5px;
+  position: absolute;
+  top: 85px;
+  left: 15px ;
+  color : #EE7700 ;
 }
