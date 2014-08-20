@@ -61,6 +61,31 @@ background-repeat: no-repeat;
 background-position:right ;
 }
 
+body.forstory {
+  background-image : url( http://th02.deviantart.net/fs71/PRE/f/2014/132/f/c/the_secret_life_of_walter_mitty_by_janvavrusa-d7i49y9.png ) ;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+body.forcast {
+  background-image : url( http://lifenotes.lifelettercafe.com/wp-content/uploads/2014/02/the-secret-life-of-walter-mitty.jpg ) ;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+body.forphoto {
+  background-image : url( http://www.aceshowbiz.com/images/still/secret-life-walter-mitty-img01.jpg ) ;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+
  h1.heading-deco{
    font-size: 200% ;
    font-family: "Comic Sans MS", cursive, sans-serif ;
@@ -113,13 +138,28 @@ a.button-deco1 {
 }
 
 p.story-block {
-  width: 38% ;
+  width: 40% ;
   font-family: "Comic Sans MS", cursive, sans-serif ;
   font-size: 180% ;
   line-height: 45px;
   position: absolute;
   top: 150px;
   left: 15px ;
+  background: rgba( 256,256,256,0.4);
+  
+}
+
+
+p.position-for-coming {
+
+  font-family: "Comic Sans MS", cursive, sans-serif ;
+  font-size: 250% ;
+  line-height: 45px;
+  position: absolute;
+  top: 220px;
+  right: 350px ;
+
+  
 }
 
 p.title-for-story {
@@ -128,7 +168,7 @@ p.title-for-story {
   font-size: 250% ;
   line-height: 5px;
   position: absolute;
-  top: 85px;
+  top: 110px;
   left: 15px ;
   color : #EE7700 ;
 }
