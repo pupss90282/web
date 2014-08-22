@@ -3,6 +3,36 @@
   <title>Photo</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+
+    $(document).ready(function() {
+	  $("img").hide() ;
+	  
+      $("#1").click(function(){
+	    $("#photo-area").hide() ;
+	    $("img").hide() ;
+        $("#pic1").show();
+      });
+      $("#2").click(function(){
+	    $("img").hide() ;
+        $("#pic2").show();
+      });
+	  $("#3").click(function(){
+	    $("img").hide() ;
+        $("#pic3").show();
+      });
+      $("#4").click(function(){
+	    $("img").hide() ;
+        $("#pic4").show();
+      });
+	  $("#5").click(function(){
+	    $("img").hide() ;
+        $("#pic5").show();
+      });
+    });
+
+  </script>
 
 </head>
 <body class="forphoto" >
@@ -13,21 +43,26 @@
 <a class="button-deco1" id = "story" href ="story.html">Meet Mitty</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a class="button-deco1" id = "photo" href ="photo.html">Photo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a class="button-deco1" id = "cast" href ="cast.html">Cast</a>
-</div>
-
-<div class="photo-area">
-
-</div><br><br>
-
+</div><br><br><br>
 <div class="small-button">
 <ul>
-  <li>■</li>
-  <li>■</li>
-  <li>■</li>
-  <li>■</li>
-  <li>■</li>
+  <li id = "1" ><a href= "#" >■</a></li>
+  <li id = "2" ><a href= "#" >■</a></li>
+  <li id = "3" ><a href= "#" >■</a></li>
+  <li id = "4" ><a href= "#" >■</a></li>
+  <li id = "5" ><a href= "#" >■</a></li>
 </ul>
 </div>
+<div id ="photo-area" class="photo-area">
+
+</div>
+
+
+<img id = "pic1" class="setphoto" src="http://cdn2-www.craveonline.com/assets/uploads/2013/12/The-Secret-Life-of-Walter-Mitty-Ben-Stiller-Sean-Penn.jpg">
+<img id = "pic2" class="setphoto" src="http://www.fulloncinema.com/index/wp-content/uploads/2014/01/the-secret-life-of-walter-mitty-2013-movie-ben-stiller-mountain-.jpg">
+<img id = "pic3" class="setphoto" src="http://img.ksl.com/slc/2512/251295/25129583.jpg">
+<img id = "pic4" class="setphoto" src="http://www.hollywoodreporter.com/sites/default/files/2013/12/53490002.jpg">
+<img id = "pic5" class="setphoto" src="http://www.virtual-history.com/movie/photo/pr20/large/the_secret_life_of_walter_mitty.jpg">
 
 
 </body>
